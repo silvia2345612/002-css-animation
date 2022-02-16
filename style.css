@@ -1,0 +1,46 @@
+body{
+    background-image: url(GRASS.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+  }
+  
+  .alpaca{
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    animation: alpacaAnim 6s infinite;
+  }
+  .alpaca img{
+    width: 100%;
+  }
+  
+  @keyframes alpacaAnim{
+    0%{
+      left: 0%;
+      transform: rotate(35deg);
+    }
+    20%{
+        left: 0%;
+        transform: rotate(80deg);
+      }
+
+    50%{
+      left: 0%;
+      top: 55%;
+      transform: rotate(-60deg); 
+    }
+
+
+    70%{
+        left: 50%;
+        top: 35%;
+        transform: rotate(-60deg); 
+      }
+
+    100%{
+      left: 90%;
+    }
+  }
